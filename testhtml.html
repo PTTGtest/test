@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>注册/登录</title>
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+      /* 页面样式 */
+      body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 400px;
+        text-align: center;
+      }
+      h1 {
+        margin-top: 0;
+        font-size: 36px;
+        font-weight: bold;
+        color: #333;
+      }
+      input[type="text"],
+      input[type="password"] {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin: 10px 0;
+        width: 100%;
+        font-size: 16px;
+      }
+      button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        width: 100%;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+      button:hover {
+        background-color: #0069d9;
+      }
+      .fa-user,
+      .fa-lock {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #ccc;
+      }
+      .fa-lock {
+        top: 60%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form">
+      <h1>注册/登录</h1>
+      <form>
+        <div>
+          <i class="fas fa-user"></i>
+          <input type="text" placeholder="账号">
+        </div>
+        <div>
+          <i class="fas fa-lock"></i>
+          <input type="password" placeholder="密码">
+        </div>
+        <button type="submit">登录</button>
+        <button type="submit">注册</button>
+      </form>
+    </div>
+  </body>
+</html>

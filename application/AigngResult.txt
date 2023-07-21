@@ -1,0 +1,9 @@
+lcd:pass
+Screen:fail
+
+abc:pass
+abcd:pass
+
+abc--pass
+
+aaajdhajkhd：fadada

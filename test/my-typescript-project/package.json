@@ -1,0 +1,18 @@
+{
+	"name": "my-typescript-project",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/bundle.js",
+	"scripts": {
+		"build": "tsc",
+		"start": "node dist/bundle.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/node": "^14.14.31"
+	},
+	"devDependencies": {
+		"typescript": "^4.2.3"
+	}
+}

@@ -1,0 +1,16 @@
+{
+    "files.exclude": {
+        "**/*.js": { "when": "$(basename).ts"},
+        "**/*.js.map": true
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.tslint": true
+    },
+    "editor.formatOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.validate": [
+        "javascript",
+        "typescript"
+    ]
+}
